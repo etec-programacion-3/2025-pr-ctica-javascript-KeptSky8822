@@ -19,7 +19,7 @@ A continuación tienes una guía paso a paso para implementar cada funcionalidad
 - Completa la función `showDetails(id)`.
 - Debe enviar una petición GET a la API (`/products/:id`) y mostrar los detalles (puede ser con `alert` o en el DOM).
 - Asigna el evento de click sobre el nombre del producto para llamar a esta función.
-
+    
 ## 4. Manejo de errores
 - En cada función, usa `try/catch` para capturar errores y muestra un mensaje si ocurre un problema.
 
