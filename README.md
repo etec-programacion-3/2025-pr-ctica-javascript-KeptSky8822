@@ -28,7 +28,8 @@ Cada carpeta aborda un tema clave con ejemplos prácticos, ejercicios y document
 
 1. 02-consumo-api: https://chatgpt.com/share/685ea943-3d98-8003-8f71-56e2514ee76a.
 2. 03-dom-eventos: https://chatgpt.com/share/688cfb01-c0d4-8003-bae1-ce309532143b.
-3. 04-enrutamiento:https://chatgpt.com/share/688cfaef-8174-8003-b804-98edc7c74601.
+3. 04-enrutamiento: https://chatgpt.com/share/688cfaef-8174-8003-b804-98edc7c74601.
+4. 05-patrones-frontend: https://chatgpt.com/share/688d1c8d-f028-8003-9b74-ef23d8d44d43
 
 
 ---
