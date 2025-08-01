@@ -5,6 +5,7 @@ export class TaskView {
     this.list = document.getElementById('task-list');
     this.form = document.getElementById('task-form');
     this.input = document.getElementById('task-input');
+    this.messageDiv = document.getElementById('message');
   }
 
   // Renderiza la lista de tareas en el DOM
@@ -13,8 +14,23 @@ export class TaskView {
     tasks.forEach((task, idx) => {
       const li = document.createElement('li');
       li.textContent = task;
-      // TODO: Agrega aquí el botón y la lógica para eliminar la tarea
-      // TODO: Agrega aquí el botón y la lógica para editar la tarea
+      
+      
+      // Crear botón Editar
+      const btnEditar = document.createElement('button');
+      btnEditar.textContent = 'Editar';
+      btnEditar.dataset.index = idx;
+
+      // Crear botón Eliminar
+      const btnEliminar = document.createElement('button');
+      btnEliminar.textContent = 'Eliminar';
+      btnEliminar.dataset.index = idx;
+
+      // Agregar botones al li
+      li.appendChild(btnEditar);
+      li.appendChild(btnEliminar);
+
+
       this.list.appendChild(li);
     });
   }
@@ -29,8 +45,37 @@ export class TaskView {
   }
 
   // TODO: Asocia el evento de eliminar tarea a la lista
-  // bindRemoveTask(handler) { ... }
+
+  bindRemoveTask(handler) {
+    this.list.addEventListener('click', e => {
+      if (e.target.tagName === 'BUTTON' && e.target.textContent === 'Eliminar') {
+        const index = e.target.dataset.index;
+        handler(index);
+      }
+    });
+  }
 
   // TODO: Asocia el evento de editar tarea a la lista
-  // bindEditTask(handler) { ... }
-} 
+    bindEditTask(handler) {
+    this.list.addEventListener('click', e => {
+      if (e.target.tagName === 'BUTTON' && e.target.textContent === 'Editar') {
+        const index = Number(e.target.dataset.index); 
+        handler(index);
+      }
+    });
+  }
+
+  showMessage(msg, isError = true) {
+  if (!this.messageDiv) return;
+  this.messageDiv.textContent = msg;
+  this.messageDiv.style.color = isError ? 'red' : 'green';
+  this.messageDiv.style.marginTop = '8px';
+  }
+  
+
+  clearMessage() {
+  if (!this.messageDiv) return;
+    this.messageDiv.textContent = '';
+  }
+
+}

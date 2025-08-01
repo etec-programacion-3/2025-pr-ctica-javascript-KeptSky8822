@@ -22,8 +22,17 @@ export class TaskModel {
     this._commit();
   }
 
+  editTask(idx, newTask) {
+  if (idx >= 0 && idx < this.tasks.length) {
+    this.tasks[idx] = newTask;
+    this._commit(); 
+  }
+}
+
+
   // Guarda el estado actual de las tareas en localStorage
   _commit() {
     localStorage.setItem('mvc-tasks', JSON.stringify(this.tasks));
   }
+  
 } 
