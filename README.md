@@ -27,6 +27,9 @@ Cada carpeta aborda un tema clave con ejemplos prácticos, ejercicios y document
 ## Links de chats para hacer los ejercicios
 
 02-consumo-api: https://chatgpt.com/share/685ea943-3d98-8003-8f71-56e2514ee76a
+03-dom-eventos: https://chatgpt.com/share/688cfb01-c0d4-8003-bae1-ce309532143b
+04-enrutamiento:https://chatgpt.com/share/688cfaef-8174-8003-b804-98edc7c74601
+
 
 ---
 
