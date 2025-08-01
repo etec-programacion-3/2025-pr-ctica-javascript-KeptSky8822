@@ -31,7 +31,7 @@ Esta carpeta te enseña a hacer pruebas simples en JavaScript usando `console.as
 ## Ejercicios
 1. Escribe pruebas para una función que calcule el total de un carrito.
 2. Instala Jest y crea un archivo de prueba para una función de suma.
-3. Haz que una prueba falle y observa el resultado.
+3. Haz que una pruebafalle y observa el resultado.
 
 ## Conceptos clave
 - Pruebas unitarias
