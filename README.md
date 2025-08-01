@@ -31,6 +31,7 @@ Cada carpeta aborda un tema clave con ejemplos prácticos, ejercicios y document
 3. 04-enrutamiento: https://chatgpt.com/share/688cfaef-8174-8003-b804-98edc7c74601.
 4. 05-patrones-frontend: https://chatgpt.com/share/688d1c8d-f028-8003-9b74-ef23d8d44d43
 5. 06-herramientas: https://chatgpt.com/share/688d28d9-cc3c-8003-b250-ec4945433890
+6. 07-testing: https://chatgpt.com/share/688d2e49-f0f0-8003-8193-cb8ffb389547
 
 
 ---
