@@ -24,7 +24,7 @@ Cada carpeta aborda un tema clave con ejemplos prácticos, ejercicios y document
 4. Resuelve los ejercicios propuestos para afianzar los conceptos.
 
 ---
-## Links de chats para hacer los ejercicios
+## Enlances del chat usado para la realización de los ejercicios
 
 1. 02-consumo-api: https://chatgpt.com/share/685ea943-3d98-8003-8f71-56e2514ee76a.
 2. 03-dom-eventos: https://chatgpt.com/share/688cfb01-c0d4-8003-bae1-ce309532143b.
