@@ -10,6 +10,8 @@
   },
   "rules": {
     "no-unused-vars": "warn",
-    "semi": ["error", "always"]
+    "semi": ["error", "always"],
+    "no-console": "warn",     // ⛔ Te avisa si usás console.log
+    "eqeqeq": "error"         // ⛔ Obliga a usar === en vez de ==
   }
 } 
